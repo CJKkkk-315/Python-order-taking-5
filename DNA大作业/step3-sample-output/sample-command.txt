@@ -1,0 +1,7 @@
+Sample command:
+$ python count_kmers.py testfile.fasta 2,3,5
+
+Output files:
+testfile_2-mer-frequency.txt
+testfile_3-mer-frequency.txt
+testfile_5-mer-frequency.txt

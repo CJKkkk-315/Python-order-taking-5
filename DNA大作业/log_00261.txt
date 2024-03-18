@@ -1,0 +1,12 @@
+filename:example_chromosome21.fasta, k:2:
+Time without dictionary elapsed is 19.2829 seconds.
+Time with dictionary elapsed is 15.5978 seconds.
+filename:example_chromosome21.fasta, k:3:
+Time without dictionary elapsed is 31.6099 seconds.
+Time with dictionary elapsed is 17.186 seconds.
+filename:example_chromosome21.fasta, k:4:
+Time without dictionary elapsed is 78.5739 seconds.
+Time with dictionary elapsed is 19.8948 seconds.
+filename:example_chromosome21.fasta, k:5:
+Time without dictionary elapsed is 290.308 seconds.
+Time with dictionary elapsed is 22.258 seconds.
