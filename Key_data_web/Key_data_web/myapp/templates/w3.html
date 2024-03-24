@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car rental service system</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        .container {
+        display: flex;
+        justify-content: space-around; /* 或使用其他合适的排列方式 */
+        padding: 20px;
+        }
+
+        .login-module, .info-module {
+            flex: 1 1 70%; /* 这将使两个模块平均分配空间 */
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px; /* 添加适当的外边距 */
+        }
+        .input-group {
+            display: flex;
+        }
+
+        .input-group input {
+            flex: 1;  /* 每个输入框占据相同的空间 */
+            margin-right: 10px; /* 输入框之间的间隔 */
+        }
+
+        .input-group input:last-child {
+            margin-right: 0; /* 最后一个输入框不需要右边距 */
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            max-width: 100%;
+        }
+        h1 {
+            color: #2a71d0; /* 蓝色调 */
+            font-size: 4em; /* 更大的字体 */
+            margin-top: 20px; /* 调整上边距 */
+            text-shadow: 2px 2px 4px #aaa; /* 文字阴影 */
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            max-width: 100%;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+    <script>
+        // 定义一个数组，用来存储每次按键的数据。
+var keyPressData = [];
+
+// 当按键事件发生时调用此函数。
+// 它记录事件中的相关数据并将其添加到keyPressData数组中。
+function recordKeyPress(event) {
+    keyPressData.push({
+        key: event.key,           // 实际按下的键
+        time: Date.now() - 1704067200000,    // 按键时的时间戳
+        type: event.type,         // 事件类型（这里应始终是'keypress'）
+        inputId: event.target.id  // 发生按键的输入元素的ID
+    });
+}
+
+// 当需要将收集到的表单数据和按键数据发送到后端时调用此函数。
+function sendData() {
+    // 从id为'loginForm'的表单创建FormData对象。
+    var formData = new FormData(document.getElementById('loginForm'));
+
+    // 将按键数据数组转化为字符串格式后添加到表单数据中。
+    formData.append('keypress_data', JSON.stringify(keyPressData));
+
+    // 使用fetch向服务器的'/web1/'端点发起请求。
+    fetch('/start3/', {
+        method: 'POST',           // HTTP请求的方法是POST。
+        body: formData,           // 请求的正文是formData对象。
+        credentials: 'include'
+    }).then(response => response.json()) // 解析JSON响应。
+      .then(data => {
+          // 根据状态执行不同的操作。
+          if (data.status === 'success') {
+              // 如果状态是'success'，则显示成功消息，并重置表单。
+              alert(data.message);
+              document.getElementById('loginForm').reset();
+              keyPressData = []; // 清除按键数据。
+          } else if (data.status === 'failure') {
+              // 如果状态是'failure'，则显示失败的警告，并重置表单。
+              alert(data.message);
+              document.getElementById('loginForm').reset();
+              keyPressData = []; // 清除按键数据。
+          } else if (data.status === 'redirect') {
+              // 如果状态是'redirect'，则将浏览器重定向到响应中提供的URL。
+              window.location.href = data.url;
+          }
+      })
+      .catch(error => console.error('Error:', error));
+
+    return false;
+}
+
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>Car rental service system</h1>
+    </div>
+    <div class="container">
+      <form method="post" id="loginForm" onsubmit="return sendData();">
+          {% csrf_token %}
+        <div class="login-module">
+            <input type="text" id="name" name="name" placeholder="Name" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <label>Phone number</label>
+            <div class="input-group">
+                <input type="text" id="countryCode" name="countryCode" placeholder="Country Code" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+                <input type="text" id="areaCode" name="areaCode" placeholder="Area Code" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            </div>
+            <input type="text" id="email" name="email" placeholder="Email" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="confirm email" name="confirm email" placeholder="Email for confirmation" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="issuing country" name="issuing country" placeholder="Issuing Country" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="issuing authority" name="issuing authority" placeholder="Issuing Authority" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="driver license number" name="driver license number" placeholder="Driver License Number" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="driver license expiration date" name="driver license expiration date" placeholder="Driver License Expiration date (MM/YYYY)" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="country" name="country" placeholder="Country of Residence" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="address" name="address" placeholder="Street address" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="city" name="city" placeholder="City" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="state" name="state" placeholder="State/Province/Region" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="text" id="zip" name="zip" placeholder="ZIP code" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+            <input type="password" id="password" name="password" placeholder="Password" onkeydown="recordKeyPress(event)" onkeyup="recordKeyPress(event)">
+
+            <button type="submit">Login</button>
+        </div>
+      </form>
+        <div class="info-module">
+            <h2>Economy</h2>
+            <h3>Mitsubishi Mirage or similar</h3>
+            <h3>Automatic</h3>
+            <hr>
+            <h2>Vehicle</h2>
+            <h2>Time & Distance 1 Day(s)@$ 54.99/Day&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$54.99*</h2>
+            <h2>Unlimited Mileage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Included</h2>
+            <hr>
+            <h2>Adjustmentes</h2>
+            <h3>ENTERPRISE PLUS (5.0%)&nbsp;&nbsp;&nbsp;&nbsp;$-2.75*</h3>
+            <hr>
+            <h3>Taxes & Fees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$10.45*</h3>
+            <hr>
+            <h2>Estimated Total&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$62.69*</h2>
+            <a>*Rates, taxes and fees do not reflect rates, taxes and feesapplicable to non-included optional coverages or extras addedlater.</a>
+
+        </div>
+    </div>
+</body>
+</html>

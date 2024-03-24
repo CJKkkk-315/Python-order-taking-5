@@ -1,0 +1,16 @@
+country:1
+name:2
+address:3
+city:4
+state:5
+zip:6
+email:7
+confirm email:8
+countryCode:9
+areaCode:10
+phoneNumber:11
+card name:12
+card number:13
+card expiration date:14
+security code:15
+password:16

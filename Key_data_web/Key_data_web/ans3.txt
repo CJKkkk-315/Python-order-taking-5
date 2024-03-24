@@ -1,0 +1,16 @@
+name:1
+countryCode:2
+areaCode:3
+phoneNumber:4
+email:5
+confirm email:6
+issuing country:7
+issuing authority:8
+driver license number:9
+driver license expiration date:10
+country:11
+address:12
+city:13
+state:14
+zip:15
+password:16
