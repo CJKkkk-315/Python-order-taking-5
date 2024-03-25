@@ -1,0 +1,3565 @@
+$RDFILE 1
+$DATM 2023-04-21 07:14:32
+$RFMT $RIREG 30090964
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H9 B O2
+ 11 11  0  0  0  0            999 V2000
+    1.6501    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8248    3.2228    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.5082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.9371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3001    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1252    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5377    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H8 O
+  9  9  0  0  0  0            999 V2000
+    7.4248    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5998    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1873    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0750    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9000    3.2226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  4  7  2  0  0  0  0
+  5  8  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30090964
+$DTYPE ROOT:RX_NVAR
+$DATUM 10
+$DTYPE ROOT:RX_RANK
+$DATUM 109
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-Vinylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-Vinylphenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-Vinylphenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 95 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 95
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 31215691
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C12 H11 B O2
+ 15 16  0  0  0  0            999 V2000
+    2.8874    2.6370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    3.3516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    2.6370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    1.9227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    4.0660    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    3.3516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500    1.9227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500    3.3516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    1.9227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    4.7804    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    4.0660    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5374    2.6370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    1.9227    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    3.3516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.6370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  2  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6 12  1  0  0  0  0
+  7 13  1  0  0  0  0
+  8 14  2  0  0  0  0
+  9 12  2  0  0  0  0
+ 13 15  2  0  0  0  0
+ 14 15  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C12 H10 O
+ 13 14  0  0  0  0            999 V2000
+    7.8374    3.7087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6624    3.7087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4249    2.9943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4249    4.4232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0748    4.4232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0748    2.9943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5999    2.9943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8374    2.2797    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5999    4.4232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8998    4.4232    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8998    2.9943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1875    3.7087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3124    3.7087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  2  0  0  0  0
+  5 10  2  0  0  0  0
+  6 11  1  0  0  0  0
+  7 12  2  0  0  0  0
+  9 12  1  0  0  0  0
+ 10 13  1  0  0  0  0
+ 11 13  2  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 31215691
+$DTYPE ROOT:RX_NVAR
+$DATUM 10
+$DTYPE ROOT:RX_RANK
+$DATUM 106
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 2-Biphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 2-Phenylphenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 2-Phenylphenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 95 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 95
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 30873969
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 B Br O2
+ 10 10  0  0  0  0            999 V2000
+    1.6501    1.9884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.7029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    1.9884    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    1.2740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    2.7029    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6501    3.4173    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    1.2740    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    2.7029    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    1.2740    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3002    1.9884    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+  9 10  2  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 Br O
+  8  8  0  0  0  0            999 V2000
+    5.6645    1.9331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6645    2.7581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3790    1.5206    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9502    1.5206    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    6.3790    3.1706    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9502    3.1706    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0935    1.9331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0935    2.7581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  5  8  1  0  0  0  0
+  7  8  2  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30873969
+$DTYPE ROOT:RX_NVAR
+$DATUM 16
+$DTYPE ROOT:RX_RANK
+$DATUM 105
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 2-bromophenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 2-Bromophenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 2-Bromophenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 87 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 87
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660141
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H8 B N O3
+ 11 11  0  0  0  0            999 V2000
+    3.2672    3.2255    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9799    2.8122    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2672    4.0519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5520    2.8162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9783    1.9872    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6968    3.2229    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5539    4.4678    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8410    3.2287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8410    4.0553    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1258    4.4678    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    4.0553    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H7 N O2
+  9  9  0  0  0  0            999 V2000
+    8.4873    3.6368    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7736    4.0533    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4873    2.8101    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2023    4.0475    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0610    3.6408    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7720    2.4018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9160    3.6326    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0610    2.8143    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3465    2.4018    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  4  7  1  0  0  0  0
+  5  8  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660141
+$DTYPE ROOT:RX_NVAR
+$DATUM 15
+$DTYPE ROOT:RX_RANK
+$DATUM 105
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 6-Methoxy-pyridin-3-ylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 2-methoxy-5-hydroxypyridine
+$DTYPE ROOT:RX_BIN
+$DATUM 269587
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 2-methoxy-5-hydroxypyridine
+$DTYPE ROOT:RXD(1):YD
+$DATUM 92 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 92
+$DTYPE ROOT:RXD(1):RGT
+$DATUM p-Methyl-N,N-dimethylaniline N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448353
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 B F3 . K
+ 11 10  0  0  0  0            999 V2000
+    1.2243    2.8185    0.0000 B   0  5  0  0  0  0  0  0  0  0  0  0
+    2.0494    2.8185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0113    2.0223    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2960    3.6411    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    2.9621    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4618    3.5331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4618    2.1040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2869    3.5331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2869    2.1040    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6994    2.8185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5243    2.8318    0.0000 K   0  3  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  2  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  7  9  2  0  0  0  0
+  8 10  2  0  0  0  0
+  9 10  1  0  0  0  0
+M  CHG  2   1  -1  11   1
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 O
+  7  7  0  0  0  0            999 V2000
+    6.9997    2.8320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4123    3.5463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4123    2.1175    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1747    2.8320    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2372    3.5463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2372    2.1175    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6497    2.8320    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448353
+$DTYPE ROOT:RX_NVAR
+$DATUM 19
+$DTYPE ROOT:RX_RANK
+$DATUM 104
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM potassium phenyltrifluoborate
+$DTYPE ROOT:RX_PRO
+$DATUM phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 1
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM body text
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 83 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 83
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 30090966
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H9 B O2 S
+ 11 11  0  0  0  0            999 V2000
+    1.6501    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8248    3.2228    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.5082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.9371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3001    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1252    3.2228    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5377    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H8 O S
+  9  9  0  0  0  0            999 V2000
+    7.4248    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5998    3.2226    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1873    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0750    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9000    3.2226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  4  7  1  0  0  0  0
+  5  8  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30090966
+$DTYPE ROOT:RX_NVAR
+$DATUM 14
+$DTYPE ROOT:RX_RANK
+$DATUM 104
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM (4-thiomethoxyphenyl)boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-hydroxythioanisole
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-hydroxythioanisole
+$DTYPE ROOT:RXD(1):YD
+$DATUM 86 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 86
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448338
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H9 B O2
+ 11 12  0  0  0  0            999 V2000
+    1.7176    2.2956    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4313    2.7072    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9636    2.6306    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6318    1.4747    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4313    3.5324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1466    2.2956    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    2.0183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8241    1.3039    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1466    3.9448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8611    2.7072    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8611    3.5324    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  6 10  2  0  0  0  0
+  7  8  1  0  0  0  0
+  9 11  2  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 O
+  7  7  0  0  0  0            999 V2000
+    6.3356    2.6244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7480    3.3387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7480    1.9098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5108    2.6244    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5730    3.3387    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5730    1.9098    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9854    2.6244    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448338
+$DTYPE ROOT:RX_NVAR
+$DATUM 10
+$DTYPE ROOT:RX_RANK
+$DATUM 102
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 2-phenyl[1,3,2]dioxaborolane
+$DTYPE ROOT:RX_PRO
+$DATUM phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 1
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM body text
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 81 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 81
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660139
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C9 H8 B N O2
+ 13 14  0  0  0  0            999 V2000
+    1.8356    3.2273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8356    4.0519    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5496    2.8130    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1226    2.8194    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5530    4.4679    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1241    4.4679    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2695    3.2289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4126    3.2305    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2695    4.0568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4126    4.0568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9842    2.8162    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6991    3.2289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9842    1.9907    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  2  0  0  0  0
+  5  9  2  0  0  0  0
+  6 10  2  0  0  0  0
+  7  9  1  0  0  0  0
+  7 11  1  0  0  0  0
+  8 10  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C9 H7 N O
+ 11 12  0  0  0  0            999 V2000
+    7.7729    2.8163    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7729    3.6400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4868    2.4019    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0597    2.4077    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4902    4.0569    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0614    4.0569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2066    2.8170    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3499    2.8195    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2066    3.6449    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3499    3.6449    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9215    2.4043    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  2  0  0  0  0
+  6 10  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 11  1  0  0  0  0
+  8 10  2  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660139
+$DTYPE ROOT:RX_NVAR
+$DATUM 13
+$DTYPE ROOT:RX_RANK
+$DATUM 102
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM quinolin-3-ylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 3-hydroxyquinoline
+$DTYPE ROOT:RX_BIN
+$DATUM 269587
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 3-hydroxyquinoline
+$DTYPE ROOT:RXD(1):YD
+$DATUM 77 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 77
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 11055871
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H11 B O2
+ 11 11  0  0  0  0            999 V2000
+    1.6500    2.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    2.5689    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    3.2832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    1.8543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    1.8543    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.2832    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    3.2832    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    1.8543    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    2.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    3.9977    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    1.1399    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+  8  9  2  0  0  0  0
+  8 11  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H10 O
+  9  9  0  0  0  0            999 V2000
+    5.6644    1.7437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6644    2.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3789    1.3313    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9499    1.3313    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3789    2.9813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0934    1.7437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0934    2.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3789    3.8063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8077    1.3313    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  5  8  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 11055871
+$DTYPE ROOT:RX_NVAR
+$DATUM 15
+$DTYPE ROOT:RX_RANK
+$DATUM 101
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 3,5-dimethylphenyl boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 3,5-Dimethylphenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 3,5-Dimethylphenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 89 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 89
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 30060341
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 B Br O2
+ 10 10  0  0  0  0            999 V2000
+    1.6500    2.2116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    2.2116    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    2.9261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    1.4971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    1.4971    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.9261    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    2.9261    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    1.4971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    2.2116    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    3.6405    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  7 10  1  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 Br O
+  8  8  0  0  0  0            999 V2000
+    6.3787    1.7437    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6644    2.1563    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0933    2.1563    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6644    2.9812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9498    1.7437    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    7.0933    2.9812    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8076    1.7437    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3787    3.3938    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  6  8  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30060341
+$DTYPE ROOT:RX_NVAR
+$DATUM 14
+$DTYPE ROOT:RX_RANK
+$DATUM 101
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM (3-bromophenyl)boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 3-Bromophenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 3-Bromophenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 86 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 86
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 8754627
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H9 B O2
+ 10 10  0  0  0  0            999 V2000
+    1.6499    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    2.9649    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.2504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.6793    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2999    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H8 O
+  8  8  0  0  0  0            999 V2000
+    6.6000    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7750    2.9649    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2501    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0751    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  5  7  1  0  0  0  0
+  6  7  2  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 8754627
+$DTYPE ROOT:RX_NVAR
+$DATUM 92
+$DTYPE ROOT:RX_RANK
+$DATUM 100
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-methylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM p-cresol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM p-cresol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 92 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 92
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448346
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C10 H9 B O2
+ 13 14  0  0  0  0            999 V2000
+    1.8394    2.7651    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1292    2.3534    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8394    3.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5538    2.3518    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1325    1.5278    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.7618    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1275    4.0015    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5538    4.0031    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2689    2.7651    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4199    1.1137    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8485    1.1186    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2689    3.5900    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  2  0  0  0  0
+  5 10  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6 12  2  0  0  0  0
+  7 12  1  0  0  0  0
+  8 13  2  0  0  0  0
+  9 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C10 H8 O
+ 11 12  0  0  0  0            999 V2000
+    6.3458    2.5568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3458    3.3825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6346    2.1459    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0602    2.1442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6329    3.7942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0602    3.7959    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9187    2.5534    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6379    1.3209    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7745    2.5568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9187    3.3816    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7745    3.3825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  2  0  0  0  0
+  5 10  2  0  0  0  0
+  6 11  2  0  0  0  0
+  7 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448346
+$DTYPE ROOT:RX_NVAR
+$DATUM 62
+$DTYPE ROOT:RX_RANK
+$DATUM 100
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 1-Naphthylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM α-naphthol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM α-naphthol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 92 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 92
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448355
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H7 B O2
+  9  9  0  0  0  0            999 V2000
+    1.6499    2.4492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8249    2.4492    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    3.1635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0624    1.7346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    1.7346    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.1635    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    3.1635    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    1.7346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2999    2.4492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 O
+  7  7  0  0  0  0            999 V2000
+    5.7748    2.4492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1874    3.1636    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1874    1.7346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9499    2.4492    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0124    3.1636    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0124    1.7346    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4248    2.4492    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448355
+$DTYPE ROOT:RX_NVAR
+$DATUM 173
+$DTYPE ROOT:RX_RANK
+$DATUM 100
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation|has multi-step
+$DTYPE ROOT:RX_RCT
+$DATUM phenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 90 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 90
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 8754460
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 B F O2
+ 10 10  0  0  0  0            999 V2000
+    1.6499    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    2.9649    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.2504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.6793    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2999    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    2.9649    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 F O
+  8  8  0  0  0  0            999 V2000
+    6.6000    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7750    2.9649    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2501    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0751    2.9649    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 8754460
+$DTYPE ROOT:RX_NVAR
+$DATUM 80
+$DTYPE ROOT:RX_RANK
+$DATUM 99
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-fluoroboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-Fluorophenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-Fluorophenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 89 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 89
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660137
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H9 B O4
+ 13 14  0  0  0  0            999 V2000
+    3.2666    3.2287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2666    2.4056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5539    3.6457    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9851    3.6457    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5523    1.9968    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9817    1.9910    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8422    3.2338    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7017    3.2338    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8422    2.4088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7017    2.4056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1271    3.6457    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4128    3.2330    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1271    4.4715    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  6 10  1  0  0  0  0
+  7  9  2  0  0  0  0
+  7 11  1  0  0  0  0
+  8 10  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H8 O3
+ 11 12  0  0  0  0            999 V2000
+    8.4928    3.6425    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4928    2.8183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7802    4.0587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2095    4.0587    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7776    2.4096    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2071    2.4037    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0683    3.6467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9272    3.6467    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0683    2.8215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9272    2.8183    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3530    4.0587    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  6 10  1  0  0  0  0
+  7  9  2  0  0  0  0
+  7 11  1  0  0  0  0
+  8 10  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660137
+$DTYPE ROOT:RX_NVAR
+$DATUM 4
+$DTYPE ROOT:RX_RANK
+$DATUM 99
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 2.3-dihydro-1,4-benzodioxin-6-ylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM dihydrobenzo[1,4]dioxin-6-ol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM dihydrobenzo[1,4]dioxin-6-ol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 95 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 95
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 30033784
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H7 B O2 S
+ 12 13  0  0  0  0            999 V2000
+    1.8451    3.5203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8451    2.6961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6296    3.7748    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1315    3.9342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6296    2.4410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1282    2.2806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1136    3.1083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4129    3.5196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4129    2.6911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9395    3.1083    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3526    2.3929    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3526    3.8235    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  9  2  0  0  0  0
+  7 10  1  0  0  0  0
+  8  9  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H6 O S
+ 10 11  0  0  0  0            999 V2000
+    7.4366    3.5204    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4366    2.6961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2212    3.7749    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7229    3.9343    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2212    2.4410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7196    2.2807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7052    3.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0044    3.5197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0044    2.6911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5311    3.1084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  7  1  0  0  0  0
+  6  9  1  0  0  0  0
+  7 10  2  0  0  0  0
+  8  9  2  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30033784
+$DTYPE ROOT:RX_NVAR
+$DATUM 11
+$DTYPE ROOT:RX_RANK
+$DATUM 96
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM benzo[b]thiophene-2-boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM benzo[b]-2,3-dihydrothiophen-2-one
+$DTYPE ROOT:RX_BIN
+$DATUM 251537
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0833333
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM benzo[b]-2,3-dihydrothiophen-2-one
+$DTYPE ROOT:RXD(1):YD
+$DATUM 63 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 63
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 8519544
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 B Br O2
+ 10 10  0  0  0  0            999 V2000
+    1.6499    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    2.9649    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.2504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.6793    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2999    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    2.9649    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 Br O
+  8  8  0  0  0  0            999 V2000
+    6.6000    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7750    2.9649    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2501    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0751    2.9649    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  5  7  1  0  0  0  0
+  6  7  2  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 8519544
+$DTYPE ROOT:RX_NVAR
+$DATUM 78
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-Bromophenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-bromo-phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-bromo-phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 92 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 92
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 8754658
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H9 B O3
+ 11 11  0  0  0  0            999 V2000
+    1.6501    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8248    3.2228    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.5082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.9371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3001    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1252    3.2228    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5377    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H8 O2
+  9  9  0  0  0  0            999 V2000
+    7.4248    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5998    3.2226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1873    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0750    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9000    3.2226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  4  7  1  0  0  0  0
+  5  8  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 8754658
+$DTYPE ROOT:RX_NVAR
+$DATUM 128
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-methoxyphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-methoxy-phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-methoxy-phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 89 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 89
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448343
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C10 H9 B O2
+ 13 14  0  0  0  0            999 V2000
+    3.2677    3.2298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2677    4.0556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5574    2.8180    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9830    2.8172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5558    4.4673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9830    4.4681    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8413    3.2265    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6974    3.2298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8413    4.0547    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6974    4.0556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1276    2.8124    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.2223    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1300    1.9874    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  2  0  0  0  0
+  6 10  1  0  0  0  0
+  7  9  1  0  0  0  0
+  7 11  1  0  0  0  0
+  8 10  2  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C10 H8 O
+ 11 12  0  0  0  0            999 V2000
+    8.4875    2.8172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4875    3.6431    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7763    2.4055    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2021    2.4048    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7747    4.0548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2021    4.0556    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0602    2.8140    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9165    2.8172    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0602    3.6423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9165    3.6431    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3473    2.3999    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  2  0  0  0  0
+  5  9  2  0  0  0  0
+  6 10  2  0  0  0  0
+  7  9  1  0  0  0  0
+  7 11  1  0  0  0  0
+  8 10  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448343
+$DTYPE ROOT:RX_NVAR
+$DATUM 82
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM naphthalene-2-boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM β-naphthol
+$DTYPE ROOT:RX_BIN
+$DATUM 38267
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM β-naphthol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 94 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 94
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448352
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 B N O4
+ 12 12  0  0  0  0            999 V2000
+    1.6501    3.2229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8249    3.2229    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.5084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.5084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.9372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8877    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8877    2.5084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3002    3.2229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1253    3.2229    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5378    2.5084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5378    3.9372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 N O3
+ 10 10  0  0  0  0            999 V2000
+    7.4252    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6001    3.2228    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8377    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8377    2.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1876    2.5083    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1876    3.9372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6629    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6629    2.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0754    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9004    3.2228    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448352
+$DTYPE ROOT:RX_NVAR
+$DATUM 80
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-nitrophenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-nitro-phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-nitro-phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 88 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 88
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 32164689
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C10 H15 B O2
+ 13 13  0  0  0  0            999 V2000
+    1.2241    3.4588    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0491    3.4588    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0112    2.6628    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2960    4.2813    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.6024    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4616    4.1733    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4616    2.7444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2868    4.1733    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2868    2.7444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6992    3.4588    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5242    3.4588    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9367    2.7444    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9367    4.1733    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  2  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  7  9  2  0  0  0  0
+  8 10  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C10 H14 O
+ 11 11  0  0  0  0            999 V2000
+    7.3985    3.4589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2235    3.4589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1856    2.6628    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4704    4.2815    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5867    3.6025    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6360    4.1735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6360    2.7444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4610    4.1735    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4610    2.7444    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8737    3.4589    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6987    3.4589    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  7  2  0  0  0  0
+  6  8  2  0  0  0  0
+  7  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+  9 10  2  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 32164689
+$DTYPE ROOT:RX_NVAR
+$DATUM 46
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation|has multi-step
+$DTYPE ROOT:RX_RCT
+$DATUM p-tert-butylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM para-tert-butylphenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM para-tert-butylphenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 97 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 97
+$DTYPE ROOT:RXD(1):RGT
+$DATUM p-Methyl-N,N-dimethylaniline N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660136
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H6 B F3 O2
+ 13 13  0  0  0  0            999 V2000
+    1.2241    3.4586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0490    3.4586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.0112    2.6626    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2959    4.2811    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.6022    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4614    4.1731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4614    2.7442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2866    4.1731    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2866    2.7442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6990    3.4586    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5239    3.4586    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9365    2.7442    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9365    4.1731    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  7  2  0  0  0  0
+  6  8  2  0  0  0  0
+  7  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+  9 10  2  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H5 F3 O
+ 11 11  0  0  0  0            999 V2000
+    7.3982    3.4587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2231    3.4587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1853    2.6627    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4700    4.2813    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5864    3.6023    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6356    4.1733    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6356    2.7443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4605    4.1733    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4605    2.7443    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8732    3.4587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6982    3.4587    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  2  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  7  9  2  0  0  0  0
+  8 10  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660136
+$DTYPE ROOT:RX_NVAR
+$DATUM 30
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-trifluoromethylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-Trifluoromethylphenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-Trifluoromethylphenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 83 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 83
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660142
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H8 B Cl O2
+ 11 11  0  0  0  0            999 V2000
+    2.0625    2.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6499    3.3219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    2.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6499    1.8930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    3.3219    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    4.0365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2998    3.3219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    4.0365    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.6076    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    4.0365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    3.3219    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  5  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  6 10  2  0  0  0  0
+  7 10  1  0  0  0  0
+  7 11  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H7 Cl O
+  9  9  0  0  0  0            999 V2000
+    7.0124    2.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5999    3.3219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8374    2.6076    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5999    1.8930    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0124    4.0365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7749    3.3219    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2500    3.3219    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8374    4.0365    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0749    3.3219    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  5  8  2  0  0  0  0
+  7  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660142
+$DTYPE ROOT:RX_NVAR
+$DATUM 2
+$DTYPE ROOT:RX_RANK
+$DATUM 95
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-chloro-2-methylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 2-methyl-4-chlorophenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 2-methyl-4-chlorophenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 85 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 85
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448348
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H7 B O3
+ 11 11  0  0  0  0            999 V2000
+    1.6501    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8248    3.2228    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.5082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.9371    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    3.9371    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8876    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3001    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1252    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5377    2.5082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H6 O2
+  9  9  0  0  0  0            999 V2000
+    7.4248    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8373    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5998    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    3.9370    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6625    2.5082    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1873    2.5082    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0750    3.2226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9000    3.2226    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  4  7  2  0  0  0  0
+  5  8  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448348
+$DTYPE ROOT:RX_NVAR
+$DATUM 86
+$DTYPE ROOT:RX_RANK
+$DATUM 94
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-formylphenylboronic acid,
+$DTYPE ROOT:RX_PRO
+$DATUM 4-hydroxy-benzaldehyde
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-hydroxy-benzaldehyde
+$DTYPE ROOT:RXD(1):YD
+$DATUM 84 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 84
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 8774993
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H9 B O3
+ 12 12  0  0  0  0            999 V2000
+    1.6501    3.2229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8249    3.2229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0626    2.5084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.5084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8877    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8877    2.5084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3002    3.2229    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1253    3.2229    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5378    2.5084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5378    3.9372    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H8 O2
+ 10 10  0  0  0  0            999 V2000
+    7.4252    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6001    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8377    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8377    2.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1876    2.5083    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1876    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6629    3.9372    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6629    2.5083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0754    3.2228    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9004    3.2228    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 8774993
+$DTYPE ROOT:RX_NVAR
+$DATUM 60
+$DTYPE ROOT:RX_RANK
+$DATUM 93
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation|has multi-step
+$DTYPE ROOT:RX_RCT
+$DATUM 4-acetylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-Hydroxyacetophenone
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-Hydroxyacetophenone
+$DTYPE ROOT:RXD(1):YD
+$DATUM 96 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 96
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 29448344
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C12 H17 B O2
+ 15 16  0  0  0  0            999 V2000
+    1.0790    2.6181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4923    1.9037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6318    3.2319    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5279    3.2319    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.1330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2992    2.0753    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7383    1.5687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7474    1.1199    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3851    2.8962    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0994    3.3087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0994    4.1337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8140    2.8962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.8140    4.5462    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5284    3.3087    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.5284    4.1337    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  7  1  0  0  0  0
+  2  8  1  0  0  0  0
+  3  9  1  0  0  0  0
+  6  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  2  0  0  0  0
+ 11 13  2  0  0  0  0
+ 12 14  1  0  0  0  0
+ 13 15  1  0  0  0  0
+ 14 15  2  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 O
+  7  7  0  0  0  0            999 V2000
+    7.0031    2.8331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4156    3.5473    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4156    2.1185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1781    2.8331    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2407    3.5473    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2407    2.1185    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6532    2.8331    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 29448344
+$DTYPE ROOT:RX_NVAR
+$DATUM 35
+$DTYPE ROOT:RX_RANK
+$DATUM 93
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4,4,5,5-tetramethyl-2-phenyl-1,3,2-dioxaborolane
+$DTYPE ROOT:RX_PRO
+$DATUM phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 1
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM body text
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 80 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 80
+$DTYPE ROOT:RXD(1):RGT
+$DATUM p-Methyl-N,N-dimethylaniline N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 30873963
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H6 B N O2
+ 11 11  0  0  0  0            999 V2000
+    1.6499    3.4805    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8249    3.4805    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0623    4.1949    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0623    2.7660    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.7660    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    4.1949    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    4.1949    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    2.7660    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3000    3.4805    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1249    3.4805    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9499    3.4805    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  3  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H5 N O
+  9  9  0  0  0  0            999 V2000
+    8.2499    3.4804    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6623    4.1948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6623    2.7659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4248    3.4804    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4873    4.1948    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4873    2.7659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5998    3.4804    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8998    3.4804    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7248    3.4804    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  3  6  1  0  0  0  0
+  4  7  3  0  0  0  0
+  5  8  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30873963
+$DTYPE ROOT:RX_NVAR
+$DATUM 77
+$DTYPE ROOT:RX_RANK
+$DATUM 93
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-cyanophenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 4-cyanophenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 4-cyanophenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 85 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 85
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 31857755
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 B I O2
+ 10 10  0  0  0  0            999 V2000
+    1.6499    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    2.9649    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    2.2504    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.6793    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2999    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1250    2.9649    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H5 I O
+  8  8  0  0  0  0            999 V2000
+    6.6000    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0125    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7750    2.9649    0.0000 I   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    3.6793    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8375    2.2504    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2501    2.9649    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0751    2.9649    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 31857755
+$DTYPE ROOT:RX_NVAR
+$DATUM 20
+$DTYPE ROOT:RX_RANK
+$DATUM 93
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-iodophenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM p-Iodophenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM p-Iodophenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 91 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 91
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660135
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H11 B O4
+ 13 13  0  0  0  0            999 V2000
+    2.5558    3.2463    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8413    3.6587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2702    3.6587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5558    2.4213    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8413    4.4838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1269    3.2463    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2702    4.4838    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9847    3.2463    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2702    2.0088    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8413    2.0088    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5558    4.8964    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.6587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6992    3.6587    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  1  0  0  0  0
+  4 10  1  0  0  0  0
+  5 11  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7 11  1  0  0  0  0
+  8 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H10 O3
+ 11 11  0  0  0  0            999 V2000
+    8.4923    3.0400    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7781    3.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2069    3.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4923    2.2150    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7781    4.2774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0635    3.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2069    4.2774    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.9212    3.0400    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.4923    4.6901    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3490    3.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.6357    3.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  6 10  1  0  0  0  0
+  7  9  2  0  0  0  0
+  8 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660135
+$DTYPE ROOT:RX_NVAR
+$DATUM 7
+$DTYPE ROOT:RX_RANK
+$DATUM 92
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 2,6-(bismethoxy)phenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 1,3-dimethoxy-2-hydroxy-benzene
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 1,3-dimethoxy-2-hydroxy-benzene
+$DTYPE ROOT:RXD(1):YD
+$DATUM 86 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 86
+$DTYPE ROOT:RXD(1):RGT
+$DATUM p-Methyl-N,N-dimethylaniline N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 30873967
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H9 B O4
+ 13 13  0  0  0  0            999 V2000
+    2.4749    3.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6498    3.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    4.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8874    3.0237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2373    3.0237    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2373    4.4526    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7124    4.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.7124    3.0237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    3.0237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1249    3.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9498    3.7382    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3623    3.0237    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3623    4.4526    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  5  9  1  0  0  0  0
+  7 10  2  0  0  0  0
+  8 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H8 O3
+ 11 11  0  0  0  0            999 V2000
+    9.0748    3.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2498    3.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4873    4.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.4873    3.0237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8374    3.0237    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8374    4.4526    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3123    4.4526    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.3123    3.0237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.0123    3.0237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7248    3.7382    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5498    3.7382    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  1  0  0  0  0
+  5  9  1  0  0  0  0
+  7 10  1  0  0  0  0
+  8 10  2  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 30873967
+$DTYPE ROOT:RX_NVAR
+$DATUM 36
+$DTYPE ROOT:RX_RANK
+$DATUM 89
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 4-methoxycarbonylphenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM methyl 4-hydroxybenzoate
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM methyl 4-hydroxybenzoate
+$DTYPE ROOT:RXD(1):YD
+$DATUM 95 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 95
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 796055
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C9 H13 N
+ 10 10  0  0  0  0            999 V2000
+    1.6499    3.2186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8249    3.2186    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0623    3.9330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0623    2.5041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    2.5041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    3.9330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    3.9330    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8875    2.5041    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2999    3.2186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1249    3.2186    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  7  9  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C9 H13 N O
+ 11 11  0  0  0  0            999 V2000
+    6.5869    3.2053    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4120    3.2053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3739    2.4092    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6586    4.0280    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7750    3.3490    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8245    3.9198    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8245    2.4910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6496    3.9198    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.6496    2.4910    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.0621    3.2053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8872    3.2053    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  2  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  7  2  0  0  0  0
+  6  8  2  0  0  0  0
+  7  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+  9 10  2  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 796055
+$DTYPE ROOT:RX_NVAR
+$DATUM 17
+$DTYPE ROOT:RX_RANK
+$DATUM 86
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM Dimethyl-p-toluidine
+$DTYPE ROOT:RX_PRO
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RX_BIN
+$DATUM 154854
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 20
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):YD
+$DATUM 81 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 81
+$DTYPE ROOT:RXD(1):RGT
+$DATUM dihydrogen peroxide|methyltrioxorhenium(VII)
+$DTYPE ROOT:RXD(1):SOL
+$DATUM methanol
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660133
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C11 H15 B O2
+ 14 15  0  0  0  0            999 V2000
+    3.9822    2.0640    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9822    2.8906    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2668    1.6548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2627    1.2886    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7948    2.2059    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2693    3.3072    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5557    2.0673    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5557    2.8947    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8414    3.3065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1269    2.8940    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8414    4.1315    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    3.3065    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1260    4.5439    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4124    4.1315    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  2  0  0  0  0
+ 10 12  2  0  0  0  0
+ 11 13  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 13 14  2  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C6 H6 O
+  7  7  0  0  0  0            999 V2000
+    7.2696    2.9163    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6819    3.6306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.6819    2.2018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4446    2.9163    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5069    3.6306    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5069    2.2018    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.9194    2.9163    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  3  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  7  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660133
+$DTYPE ROOT:RX_NVAR
+$DATUM 3
+$DTYPE ROOT:RX_RANK
+$DATUM 86
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 5,5-dimethyl-2-phenyl-1,3,2-dioxaborinane
+$DTYPE ROOT:RX_PRO
+$DATUM phenol
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 1
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM body text
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM phenol
+$DTYPE ROOT:RXD(1):YD
+$DATUM 74 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 74
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660134
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H9 B O4
+ 13 13  0  0  0  0            999 V2000
+    1.8415    2.9898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8415    3.8146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1270    2.5773    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5560    2.5773    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5560    4.2271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1270    4.2271    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1270    1.7522    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    2.9898    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2705    2.9898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2705    3.8146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1270    5.0522    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9849    2.5773    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6994    2.9898    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+  6 11  2  0  0  0  0
+  9 10  2  0  0  0  0
+  9 12  1  0  0  0  0
+ 12 13  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H8 O3
+ 11 11  0  0  0  0            999 V2000
+    7.5867    3.0447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9992    3.7594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.9992    2.3303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7617    3.0447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8242    3.7594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5867    4.4737    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    8.8242    2.3303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3492    2.3303    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2367    3.0447    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.0618    3.0447    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4743    2.3303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  2  0  0  0  0
+  5  9  2  0  0  0  0
+  7  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660134
+$DTYPE ROOT:RX_NVAR
+$DATUM 1
+$DTYPE ROOT:RX_RANK
+$DATUM 84
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM (2-formyl-5-methoxyphenyl)boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM 2-Hydroxy-4-methoxybenzaldehyde
+$DTYPE ROOT:RX_BIN
+$DATUM 267759
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM 2-Hydroxy-4-methoxybenzaldehyde
+$DTYPE ROOT:RXD(1):YD
+$DATUM 86 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 86
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660138
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C9 H14 B N O4
+ 15 15  0  0  0  0            999 V2000
+    1.9247    2.4090    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5912    1.9239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9247    3.2340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2572    1.9239    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3766    2.1796    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3372    1.1410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2094    3.6466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6390    3.6466    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5112    1.1410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9897    1.6269    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5482    2.9865    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2094    4.4723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4123    4.6852    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0319    4.3997    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3528    5.2842    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  2  0  0  0  0
+  4  9  2  0  0  0  0
+  5 10  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6  9  1  0  0  0  0
+  7 12  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 12 15  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C9 H13 N O3
+ 13 13  0  0  0  0            999 V2000
+    8.5467    2.9645    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.7645    3.2252    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2000    3.4348    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7967    2.1609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1466    2.6790    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.5995    4.0338    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.8675    2.9431    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2000    4.2640    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.6216    2.1609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.3636    2.9406    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.9091    2.2516    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6928    3.6971    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6392    3.3341    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  2  0  0  0  0
+  4  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+  7  9  2  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  1  0  0  0  0
+ 10 13  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660138
+$DTYPE ROOT:RX_NVAR
+$DATUM 1
+$DTYPE ROOT:RX_RANK
+$DATUM 84
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM N-boc-2-pyrroleboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM N-(tert-butoxycarbonyl)pyrrol-2(5H)-one
+$DTYPE ROOT:RX_BIN
+$DATUM 250908
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 4
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM N-(tert-butoxycarbonyl)pyrrol-2(5H)-one
+$DTYPE ROOT:RXD(1):YD
+$DATUM 92 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 92
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660140
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C7 H6 B N O2
+ 11 11  0  0  0  0            999 V2000
+    1.8414    2.4915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8414    3.3166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1269    2.0790    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5559    2.0790    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5559    3.7291    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1269    3.7291    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1269    1.2539    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    2.4915    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2704    2.4915    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2704    3.3166    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125    4.1416    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  2  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  9  1  0  0  0  0
+  5 10  1  0  0  0  0
+  6 11  3  0  0  0  0
+  9 10  2  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H5 N O
+ 10 10  0  0  0  0            999 V2000
+    6.9831    2.6979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5706    3.4123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8081    2.6979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5706    1.9833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9831    4.1268    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7456    3.4123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2206    3.4123    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.9831    1.2688    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8081    4.1268    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9206    3.4123    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  2  0  0  0  0
+  4  8  2  0  0  0  0
+  5  9  2  0  0  0  0
+  6 10  3  0  0  0  0
+  7  9  1  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660140
+$DTYPE ROOT:RX_NVAR
+$DATUM 1
+$DTYPE ROOT:RX_RANK
+$DATUM 84
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM 2-Cyanophenylboronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM o-formylbenzonitrile
+$DTYPE ROOT:RX_BIN
+$DATUM 295469
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 0.0166667
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM o-formylbenzonitrile
+$DTYPE ROOT:RXD(1):YD
+$DATUM 85 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 85
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
+$RFMT $RIREG 33660132
+$RXN
+
+  Marvin       042101230714
+
+  1  1
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H7 B O3
+ 12 13  0  0  0  0            999 V2000
+    1.8451    3.5203    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8451    2.6961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6296    3.7748    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1315    3.9342    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6296    2.4410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1282    2.2806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1136    3.1083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4129    3.5196    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4129    2.6911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9395    3.1083    0.0000 B   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3526    2.3929    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3526    3.8235    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  2  0  0  0  0
+  5  7  2  0  0  0  0
+  6  9  2  0  0  0  0
+  7 10  1  0  0  0  0
+  8  9  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  1  0  0  0  0
+M  END
+$MOL
+
+  Mrv0541 04212307142D          
+C8 H6 O2
+ 10 11  0  0  0  0            999 V2000
+    7.4366    3.5204    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.4366    2.6961    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2212    3.7749    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7229    3.9343    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.2212    2.4410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7196    2.2807    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.7052    3.1084    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0044    3.5197    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0044    2.6911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.5311    3.1084    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  2  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  7  1  0  0  0  0
+  6  9  1  0  0  0  0
+  7 10  2  0  0  0  0
+  8  9  2  0  0  0  0
+M  END
+$DTYPE ROOT:RX_ID
+$DATUM 33660132
+$DTYPE ROOT:RX_NVAR
+$DATUM 1
+$DTYPE ROOT:RX_RANK
+$DATUM 82
+$DTYPE ROOT:RX_RTYP
+$DATUM full reaction|has preparation
+$DTYPE ROOT:RX_RCT
+$DATUM benzofuran-2-boronic acid
+$DTYPE ROOT:RX_PRO
+$DATUM benzofuran-2(3H)-one
+$DTYPE ROOT:RX_BIN
+$DATUM 251537
+$DTYPE ROOT:RXD(1):CL
+$DATUM Preparation
+$DTYPE ROOT:RXD(1):STP
+$DATUM 1
+$DTYPE ROOT:RXD(1):TIM
+$DATUM 2
+$DTYPE ROOT:RXD(1):T
+$DATUM 20
+$DTYPE ROOT:RXD(1):LCN
+$DATUM supporting information; experimental part
+$DTYPE ROOT:RXD(1):YPRO
+$DATUM benzofuran-2(3H)-one
+$DTYPE ROOT:RXD(1):YD
+$DATUM 74 percent
+$DTYPE ROOT:RXD(1):NYD
+$DATUM 74
+$DTYPE ROOT:RXD(1):RGT
+$DATUM N,N-dimethyl-p-toluidine N-oxide
+$DTYPE ROOT:RXD(1):SOL
+$DATUM dichloromethane
+$DTYPE ROOT:RXD(1):citation
+$DATUM 20174859; Article; Zhu, Chen; Wang, Rui; Falck; Organic Letters; vol. 14; 13; (2012); p. 3494 - 3497; 
+$DTYPE ROOT:COPYRIGHT(1):COPYRIGHT
+$DATUM Copyright (C) 2023 Elsevier Life Sciences IP Limited except certain content provided by third parties. Reaxys is a trademark of Elsevier Life Sciences IP Limited.
