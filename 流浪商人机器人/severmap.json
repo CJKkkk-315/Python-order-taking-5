@@ -1,0 +1,118 @@
+{
+    "statusCode": 200,
+    "code": 200000,
+    "data": [
+        {
+            "id": "3",
+            "name": "卢特兰",
+            "regionId": "2",
+            "createdAt": "1688906827",
+            "updatedAt": "1689157081",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "4",
+            "name": "安忆谷",
+            "regionId": "2",
+            "createdAt": "1688906835",
+            "updatedAt": "1689157081",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "5",
+            "name": "妮娜芙",
+            "regionId": "2",
+            "createdAt": "1688906845",
+            "updatedAt": "1689157082",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "6",
+            "name": "卡丹",
+            "regionId": "2",
+            "createdAt": "1688906852",
+            "updatedAt": "1689157082",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "7",
+            "name": "希里安",
+            "regionId": "2",
+            "createdAt": "1688906858",
+            "updatedAt": "1689157083",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "12",
+            "name": "摩可可",
+            "regionId": "2",
+            "createdAt": "1689211380",
+            "updatedAt": "1689518640",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "13",
+            "name": "塞卡",
+            "regionId": "2",
+            "createdAt": "1689211388",
+            "updatedAt": "1689211388",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "14",
+            "name": "艾弗格雷斯",
+            "regionId": "2",
+            "createdAt": "1689211403",
+            "updatedAt": "1689211403",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "15",
+            "name": "纳西尼尔",
+            "regionId": "2",
+            "createdAt": "1689211417",
+            "updatedAt": "1689211417",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "16",
+            "name": "凯萨尔",
+            "regionId": "2",
+            "createdAt": "1689211432",
+            "updatedAt": "1689211432",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "17",
+            "name": "洛恒戴尔",
+            "regionId": "2",
+            "createdAt": "1689304092",
+            "updatedAt": "1689304092",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        },
+        {
+            "id": "19",
+            "name": "库克赛顿",
+            "regionId": "2",
+            "createdAt": "1689304103",
+            "updatedAt": "1689304103",
+            "deletedAt": null,
+            "lostmerchantsName": ""
+        }
+    ],
+    "message": "ok",
+    "details": null,
+    "requiredTime": "23ms",
+    "version": "0.3.8.202311041056"
+}
