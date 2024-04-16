@@ -29,7 +29,8 @@ def send_email(EMAIL_ADDRESS,EMAIL_PASSWORD,receiver,title, stmp_id, port_id):
 
 def switch_focus_to_xiadan():
     # 连接到已经运行的Word实例
-    app = Application(backend='uia').connect(path=r'D:\同花顺\xiadan.exe')
+    xiadan_path = xiadan_entry.get()
+    app = Application(backend='uia').connect(path=xiadan_path)
     # 获取窗口
     dlg = app.window(title='网上股票交易系统5.0')
     # 将焦点切换到窗口
@@ -41,27 +42,35 @@ all_count = 0
 
 def cycle_main():
     global stop_flag, all_count
-    # key = 'jxcnynszlgnzhejh'
-    # EMAIL_ADDRESS = '1121033787@qq.com'
+
+    buy_list = [i for i in buy_entry.get().split() if i]
+    sell_list = [i for i in sell_entry.get().split() if i]
+    sell_map = {}
+    for i in sell_list:
+        sell_map[i.split('-')[0]] = int(i.split('-')[1])
+
+    op_email_list = email_entry.get().split()
+    check_flag = {}
     key = password_entry.get()
     EMAIL_ADDRESS = username_entry.get()
-    receiver_content = content_text.get("1.0","end-1c")
+    # receiver_content = content_text.get("1.0","end-1c")
     all_m = m_entry.get()
     stmp_id = stmp_entry.get()
     port_id = port_entry.get()
     receiver_info = {}
-    print(receiver_content.split('\n'))
-    for line in receiver_content.split('\n'):
-        receiver_info[line.split()[0]] = line.split()[1].split(',')
-    with open('SignalOut.txt') as f:
+    # print(receiver_content.split('\n'))
+    # for line in receiver_content.split('\n'):
+    #     receiver_info[line.split()[0]] = line.split()[1].split(',')
+    with open('TdxSignal.txt') as f:
         old_records = f.read().split('\n')
         old_records = [i for i in old_records if i]
     while True:
+        print(all_m)
         time.sleep(1)
         print("运行中...")
         if stop_flag:
             break
-        with open('SignalOut.txt') as f:
+        with open('TdxSignal.txt') as f:
             records = f.read().split('\n')
             records = [i for i in records if i]
         if len(records) > len(old_records):
@@ -71,29 +80,27 @@ def cycle_main():
             switch_focus_to_xiadan()
             for r in new_records:
                 sr = r.split('|')
-                title = '|'.join(r.split('|')[1:5]) + ' ' + r.split('|')[-1] + '    ' + r.split('|')[-2]
-                for u in receiver_info:
-                    if sr[1] in receiver_info[u]:
-                        send_email(EMAIL_ADDRESS,key,u,title,stmp_id,port_id)
-                        all_count += 1
 
                 pyautogui.press('f1')
                 pyautogui.press('f2')
 
-                pcode = sr[1]
-                price = float(sr[-1])
+                pcode = sr[2]
+                price = float(sr[6])
+                flag = sr[4]
                 op = sr[3].replace(' ', '')
                 pnumber = 0
-                if '买入' in op:
-                    if pcode not in buy_list:
+                if op == '1':
+                    if pcode not in buy_list or (pcode, flag) in check_flag:
                         continue
                     pnumber = int(int(all_m)/price)
                     pnumber -= pnumber%100
+                    check_flag[(pcode, flag)] = 1
                     pyautogui.press('f1')
-                elif '卖出' in op:
-                    if pcode not in sell_map:
+                elif op == '-1':
+                    if pcode not in sell_map or (pcode, flag) in check_flag:
                         continue
                     pnumber = sell_map[pcode]
+                    check_flag[(pcode, flag)] = 1
                     pyautogui.press('f2')
                     price -= 0.1
                 price = round(price, 2)
@@ -125,9 +132,14 @@ def cycle_main():
                 pyautogui.press('enter')
                 time.sleep(0.2)
                 pyautogui.press('enter')
-                op_log_title = sr[1] + '|' + sr[2] + '|' + op + '|' + str(price) + '|' + sr[-2]
+                if op == '1':
+                    op_log_title = pcode + '-' + sr[-1] + '-' + str(price) + '-' + str(pnumber) + '-' + '买入' + '-' + '已下单'
+                elif op == '-1':
+                    op_log_title = pcode + '-' + sr[-1] + '-' + str(price) + '-' + str(pnumber) + '-' + '卖出' + '-' + '已下单'
+                else:
+                    op_log_title = op + '操作未知'
                 for u in op_email_list:
-                    send_email(EMAIL_ADDRESS, key, u, op_log_title)
+                    send_email(EMAIL_ADDRESS, key, u, op_log_title, stmp_id,port_id)
                 with open('OPlog.txt', 'a+') as f:
                     f.write(op_log_title + '\n')
 
@@ -152,44 +164,45 @@ def stop():
     tkinter.messagebox.showinfo('执行完毕！',f'本次运行共发送{all_count}条邮件')
 
 def save():
-    f = open('config.txt','w')
-    f.write(username_entry.get() + '\n')
-    f.write(password_entry.get() + '\n')
-    f.write(stmp_entry.get() + '\n')
-    f.write(port_entry.get() + '\n')
-    f.write(m_entry.get() + '\n')
-    f.write(content_text.get("1.0", tk.END) + '\n')
+
+    f = open('opconfig.txt','w', encoding='utf8')
+    f.write('发送邮箱：' + username_entry.get() + '\n')
+    f.write('安全密码：' + password_entry.get() + '\n')
+    f.write('服务地址：' + stmp_entry.get() + '\n')
+    f.write('服务端口：' + port_entry.get() + '\n')
+    f.write('买入金额：' + m_entry.get() + '\n')
+    f.write('下单路径：' + xiadan_entry.get() + '\n')
+    f.write('买入观察：' + buy_entry.get() + '\n')
+    f.write('卖出观察：' + sell_entry.get() + '\n')
+    f.write('推送邮件：' + email_entry.get() + '\n')
+    # f.write(content_text.get("1.0", tk.END) + '\n')
     f.close()
     tkinter.messagebox.showinfo('结果','保存成功！')
-if os.path.exists('config.txt'):
-    content_data = open('config.txt').read()
-    content_data = [i for i in content_data.split('\n') if i]
-    EMAIL_ADDRESS = content_data[0]
-    key = content_data[1]
-    stmp_id = content_data[2]
-    port_id = content_data[3]
-    all_m = content_data[4]
-    content_info = '\n'.join(content_data[5:])
+
+
+if os.path.exists('opconfig.txt'):
+    f = open('opconfig.txt',encoding='utf8')
+    opc = f.read().split('\n')
+    f.close()
+    EMAIL_ADDRESS = opc[0].split('：')[1]
+    key = opc[1].split('：')[1]
+    stmp_id = opc[2].split('：')[1]
+    port_id = opc[3].split('：')[1]
+    all_m = opc[4].split('：')[1]
+    xiadan_path = opc[5].split('：')[1]
+    buy_content = opc[6].split('：')[1]
+    sell_content = opc[7].split('：')[1]
+    op_email_content = opc[8].split('：')[1]
 else:
-    key = ''
     EMAIL_ADDRESS = ''
-    content_info = ''
+    key = ''
     stmp_id = ''
     port_id = ''
-    all_m = 0
-
-if os.path.exists('OPconfig.xlsx'):
-    opc = pd.read_excel('OPconfig.xlsx', header=None, dtype=str).values
-    buy_list = [i for i in opc[0][1:] if str(i) != 'nan']
-    sell_list = [i for i in opc[1][1:] if str(i) != 'nan']
-    sell_map = {}
-    for i in sell_list:
-        sell_map[i.split('-')[0]] = int(i.split('-')[1])
-    op_email_list = [i for i in opc[2][1:] if str(i) != 'nan']
-else:
-    buy_list = []
-    sell_list = []
-    op_email_list = []
+    all_m = ''
+    xiadan_path = ''
+    buy_content = ''
+    sell_content = ''
+    op_email_content = ''
 
 print(all_m)
 root = tk.Tk()
@@ -224,11 +237,31 @@ m_entry = tk.Entry(root)
 m_entry.pack()
 m_entry.insert(0,all_m)
 
-content_label = tk.Label(root, text="内容")
-content_label.pack()
-content_text = tk.Text(root)
-content_text.pack()
-content_text.insert("1.0",content_info)
+xiadan_label = tk.Label(root, text="下单路径")
+xiadan_label.pack()
+xiadan_entry = tk.Entry(root)
+xiadan_entry.pack()
+xiadan_entry.insert(0,xiadan_path)
+
+buy_label = tk.Label(root, text="买入观察")
+buy_label.pack()
+buy_entry = tk.Entry(root, width=100)
+buy_entry.pack()
+buy_entry.insert(0,buy_content)
+
+sell_label = tk.Label(root, text="卖出观察")
+sell_label.pack()
+sell_entry = tk.Entry(root, width=100)
+sell_entry.pack()
+sell_entry.insert(0,sell_content)
+
+email_label = tk.Label(root, text="推送邮箱")
+email_label.pack()
+email_entry = tk.Entry(root, width=100)
+email_entry.pack()
+email_entry.insert(0,op_email_content)
+
+# content_text.insert("1.0",content_info)
 state_now = tk.Label(root, text='未启动')
 state_now.pack()
 
